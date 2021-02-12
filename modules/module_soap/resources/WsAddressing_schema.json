@@ -1,0 +1,1 @@
+{"bhashinee/module_soap:0.1.0:WsAddressing":{"requestFrom":"string","requestTo":"string","wsaAction":"string","relatesTo":"string","relationshipType":"string","replyTo":"string","faultTo":"string","messageId":"string"}}

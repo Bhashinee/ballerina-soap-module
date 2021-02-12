@@ -1,0 +1,1 @@
+{"bash/soap:0.1.0:SoapResponse":{"soapVersion":"(SOAP11|SOAP12)","headers":"xml[]","payload":"xml","httpResponse":"ballerina/http:1.0.5:Response"}}
