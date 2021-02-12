@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/ballerina-platform/module-soap.svg?branch=master)](https://travis-ci.org/ballerina-platform/module-soap)
-
 # SOAP Connector
 
 The SOAP connector allows you to send an ordinary XML request to a SOAP backend by specifying the necessary details to
@@ -10,7 +8,7 @@ SOAP message.
 
 |                          |      Versions      |
 |:------------------------:|:------------------:|
-| Ballerina Language       | Swan Lake Preview1 |
+| Ballerina Language       | Swan Lake Alpha1 |
 | SOAP Version             | 1.1 & 1.2          |
 
 ## Getting Started
@@ -21,7 +19,7 @@ Refer the [Getting Started](https://ballerina.io/learn/getting-started/) guide t
 
 ```ballerina
 import ballerina/io;
-import ballerina/soap;
+import bash/soap;
   
 public function main () {
 

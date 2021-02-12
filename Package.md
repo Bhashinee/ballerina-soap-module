@@ -9,14 +9,19 @@ SOAP message.
 ## Compatibility
 |                          |      Versions      |
 |:------------------------:|:------------------:|
-| Ballerina Language       | Swan Lake Preview1 |
+| Ballerina Language       | Swan Lake Alpha1 |
 | SOAP Version             | 1.1 & 1.2          |
 
 ## Sample
 
-First, import the `ballerina/soap` module into the Ballerina project.
+First, pull the module
 ```ballerina
-import ballerina/soap;
+bal pull bash/soap
+```
+
+import the `bash/soap` module into the Ballerina project.
+```ballerina
+import bash/soap;
 ```
 
 Instantiate a connector by giving the backend URL.
@@ -59,7 +64,7 @@ if (response is soap:SoapResponse) {
 
 ```ballerina
 import ballerina/io;
-import ballerina/soap;
+import bash/soap;
   
 public function main () {
 
